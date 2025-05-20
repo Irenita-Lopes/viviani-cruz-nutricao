@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
              
                 <Link
                     className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/#sobre"}
+                    href={"/#about"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Sobre
@@ -44,31 +44,31 @@ const Navbar: React.FC = () => {
                
                 <Link
                     className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/#servicos"}
+                    href={"/#services"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Serviços
                 </Link>
                
+               <Link
+                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    href={"/#products"}
+                    onClick={() => setIsOpen(!isOpen)}
+                >
+                    Produtos
+                </Link>
+
                 <Link
                     className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/#depoimentos"}
+                    href={"/#testimonials"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Depoimentos
                 </Link>
                 
-                 <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/#produtos"}
-                    onClick={() => setIsOpen(!isOpen)}
-                >
-                    Produtos
-                </Link>
-                
                 <Link
                     className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/#contatos"}
+                    href={"/#contacts"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Contatos
