@@ -25,33 +25,33 @@ const Navbar: React.FC = () => {
                     />}
             </div>
             <nav className="w-[100%] h-[100%] text-[18px] md:h-auto flex flex-col md:flex-row align-center items-center justify-center md:justify-end gap-10">
-                
+
                 <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Inicio
                 </Link>
-             
+
                 <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#about"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Sobre
                 </Link>
-               
+
                 <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#services"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Serviços
                 </Link>
-               
-               <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+
+                <Link
+                    className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#products"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
@@ -59,15 +59,15 @@ const Navbar: React.FC = () => {
                 </Link>
 
                 <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#testimonials"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Depoimentos
                 </Link>
-                
+
                 <Link
-                    className={`hover:text-[#a64522] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#contacts"}
                     onClick={() => setIsOpen(!isOpen)}
                 >

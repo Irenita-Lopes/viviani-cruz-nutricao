@@ -9,11 +9,11 @@ const HomePage = () => {
             />
 
             <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4">
-                <h1 className=" text-4xl md:text-6xl font-bold text-black drop-shadow-lg">
-                    Viviani Aparecida Cruz
+                <h1 className="text-4xl md:text-6xl font-bold text-[#A64522] drop-shadow-lg">
+                    AlimentAfros
                 </h1>
                 <h2 className="mt-4 text-xl md:text-2xl text-black drop-shadow-md">
-                    Técnica em Nutrição e Dietética e Fundadora da AlimentAfros
+                    Nutrindo corpos, histórias e afetos
                 </h2>
             </div>
         </div>

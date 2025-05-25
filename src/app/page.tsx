@@ -8,15 +8,15 @@ import Products from "./screens/Products";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <HomePage/>
+      <HomePage />
 
-      <About/>
+      <About />
 
-      <Services/>
+      <Services />
 
-      <Products/>
+      <Products />
 
-      <Testimonials/>
+      <Testimonials />
 
       <Contact />
 
