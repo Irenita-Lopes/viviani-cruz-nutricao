@@ -58,13 +58,13 @@ const Navbar: React.FC = () => {
                     Produtos
                 </Link>
 
-                <Link
+                {/* <Link
                     className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#testimonials"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Depoimentos
-                </Link>
+                </Link> */}
 
                 <Link
                     className={`text-[#a64522] hover:text-[#F24C27] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}

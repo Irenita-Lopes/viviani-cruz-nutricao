@@ -19,7 +19,8 @@ export interface IServicesCard {
         target
     }) => {
         return (
-            <div className="w-full md:w-[250px] min-h-[400px] shadow-lg flex flex-col justify-between">
+  <div className="w-full md:w-[250px] min-h-[400px] shadow-lg flex flex-col justify-between bg-white rounded-3xl overflow-hidden">
+
                 <figure className="w-full h-[250px] flex items-center justify-center">
                     <Image
                         className="w-full h-full object-cover rounded-tr-3xl p-[1px]"
@@ -37,13 +38,14 @@ export interface IServicesCard {
                         {description}
                     </span>
                     <DefaultButton
-                        title="Saiba mais"
-                        target={target}
-                        to={to}
-                        className='bg-[#a64522] hover:bg-[#F24C27]  text-white font-bold py-2 px-4 rounded-xl'
-                    >
-                        <RiSearchLine size={20} />
-                    </DefaultButton>
+  title="Saiba mais"
+  target={target}
+  to={to}
+  className='bg-[#a64522] hover:bg-[#F24C27] text-white font-bold py-2 px-4 rounded-xl mt-4'
+>
+  <RiSearchLine size={20} />
+</DefaultButton>
+
                 </div>
             </div>
         );
