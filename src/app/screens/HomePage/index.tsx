@@ -13,7 +13,7 @@ const HomePage = () => {
                     AlimentAfros
                 </h1>
                 <h2 className="mt-4 text-xl md:text-2xl text-black drop-shadow-md">
-                    Nutrindo corpos, histórias e afetos
+                    Alimentação como ato de cura e resistência
                 </h2>
             </div>
         </div>

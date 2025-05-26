@@ -19,7 +19,7 @@ export interface IServicesCard {
         target
     }) => {
         return (
-  <div className="w-full md:w-[250px] min-h-[400px] shadow-lg flex flex-col justify-between bg-white rounded-3xl overflow-hidden">
+  <div className="w-full md:w-[300px] min-h-[400px] shadow-lg flex flex-col justify-between bg-white rounded-3xl overflow-hidden">
 
                 <figure className="w-full h-[250px] flex items-center justify-center">
                     <Image
