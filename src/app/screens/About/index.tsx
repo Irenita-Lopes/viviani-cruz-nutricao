@@ -1,5 +1,5 @@
 import Image from "next/image";
-import perfil from "@/assets/Viviani-fundtransparente.png";
+import perfil from "@/assets/vivianicruzsorrindo.png";
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
                     Viviani Cruz
                 </h1>
                 <hr className="text-[#A64522]" />
-    
+
                 <p className="mt-10 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm">
                     Olá! Sou Viviani Cruz, mulher preta nascida no interior de SP e apaixonada pela relação entre alimentação, afeto, saúde e ancestralidade. graças à essa paixão hoje tenho formação técnica em Nutrição e Dietética, sou bacharela em Saúde Coletiva pela Universidade Federal do Paraná (UFPR), e idealizei o projeto AlimentAfros com o propósito de ampliar o acesso da população negra a práticas alimentares que sejam acolhedoras, educativas e culturalmente conectadas.
                 </p>
@@ -20,13 +20,13 @@ const About = () => {
                     Minha trajetória também se alimenta das vivências como a experiência transformadora que vivi em Maputo - Moçambique, onde me encantei com os sabores, cores e práticas alimentares carregadas de história e ancestralidade. Lá aprendi que a alimentação é linguagem: cada prato carregava histórias de resistência, memórias de mulheres negras e a riqueza da diáspora africana. Essa conexão com a culinária africana reafirmou em mim o desejo de construir um caminho que respeita nossas raízes, valoriza nossos corpos e fortalece nossa identidade alimentar.
                     Por isso, trabalho unindo ciência, cuidado e afeto, com base na realidade social, econômica e cultural de quem atendo.
                 </p>
-               <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm">
+                <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm">
                     Através da AlimentAfros, construo pontes entre saberes técnicos, vivências pessoais e o cuidado coletivo.
                 </p>
                 <h2 className="text-xl md:text-2xl mt-10 text-[#A64522] font-medium drop-shadow-md">
-                 
-                     Aqui, a nutrição é preta, potente, política e pra você.
-                   
+
+                    Aqui, a nutrição é preta, potente, política e pra você.
+
                 </h2>
             </div>
 
