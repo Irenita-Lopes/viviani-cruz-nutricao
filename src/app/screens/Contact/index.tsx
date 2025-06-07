@@ -4,13 +4,13 @@ import perfil from "@/assets/vivianiapcruz.png";
 
 const Contact = () => {
     return (
-        <div id="contacts" className="min-h-screen bg-white flex flex-col items-center md:flex-row md:justify-center px-6 py-12 md:px-20">
-            <div className="md:w-1/2 mb-8 md:mb-0 flex justify-center items-center">
+        <div id="contacts" className="min-h-screen bg-white flex flex-col items-center md:flex-row md:justify-center px-6 py-12 md:px-20 scroll-mt-14">
+            <div className="w-1/2 md:w-1/2 mb-8 md:mb-0 flex justify-center items-center">
                 <Image
                     src={perfil}
                     alt="Foto de Viviani Cruz"
                     priority
-                    className="rounded-lg shadow-md"
+                    className="rounded-lg"
                 />
             </div>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                     Será um prazer te atender e pensar coletivamente nas melhores soluções para a sua realidade.
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8">
 
                     <div className="md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
                         <Mail className="text-[#A64522]" />

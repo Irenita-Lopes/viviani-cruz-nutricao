@@ -3,7 +3,8 @@ import perfil from "@/assets/vivianicruzsorrindo.png";
 
 const About = () => {
     return (
-        <section className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center gap-10" id="about">
+        <section className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center gap-10 scroll-mt-14" 
+        id="about">
             <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-[#A64522] mb-4 font-extrabold text-4xl md:text-5xl drop-shadow-lg">
                     Viviani Cruz
@@ -19,10 +20,9 @@ const About = () => {
                 <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm">
                     Minha trajetória também se alimenta das vivências como a experiência transformadora que vivi em Maputo - Moçambique, onde me encantei com os sabores, cores e práticas alimentares carregadas de história e ancestralidade. Lá aprendi que a alimentação é linguagem: cada prato carregava histórias de resistência, memórias de mulheres negras e a riqueza da diáspora africana. Essa conexão com a culinária africana reafirmou em mim o desejo de construir um caminho que respeita nossas raízes, valoriza nossos corpos e fortalece nossa identidade alimentar.
                     Por isso, trabalho unindo ciência, cuidado e afeto, com base na realidade social, econômica e cultural de quem atendo.
-                </p>
-                <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm">
                     Através da AlimentAfros, construo pontes entre saberes técnicos, vivências pessoais e o cuidado coletivo.
                 </p>
+
                 <h2 className="text-xl md:text-2xl mt-10 text-[#A64522] font-medium drop-shadow-md">
 
                     Aqui, a nutrição é preta, potente, política e pra você.
@@ -32,7 +32,7 @@ const About = () => {
 
             <figure className="w-full md:w-1/2 flex justify-center">
                 <Image
-                    className="w-full h-auto max-w-sm md:max-w-md object-contain"
+                    className="md:w-2/3 mb-8 md:mb-0 flex justify-center items-center"
                     src={perfil}
                     alt="Foto de Viviani Cruz"
                     priority

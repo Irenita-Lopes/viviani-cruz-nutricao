@@ -2,7 +2,6 @@ import HomePage from "./screens/HomePage";
 import Contact from "./screens/Contact";
 import About from "./screens/About";
 import Services from "./screens/Services";
-import Testimonials from "./screens/Testimonials";
 import Products from "./screens/Products";
 
 export default function Home() {
@@ -15,8 +14,6 @@ export default function Home() {
       <Services />
 
       <Products />
-
-      {/* <Testimonials /> */}
 
       <Contact />
 

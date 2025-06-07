@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Viniani Cruz Consultoria",
-  description: "Portfolio e serviços de Viviani Aparecida Cruz, especialista em saúde alimentar da população negra",
+  title: "Viniani Cruz AlimentAfros",
+  description: "Portfolio e serviços de Viviani Aparecida Cruz, nutróloga e pesquisadora em saúde alimentar da população negra",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <main className="w-full flex flex-col">
           <Navbar />
-          <div className="mt-14">
+          <div className="bg-white mt-14">
             {children}
           </div>
         </main>

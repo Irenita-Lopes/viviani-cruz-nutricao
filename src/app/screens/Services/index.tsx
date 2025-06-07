@@ -1,7 +1,7 @@
 "use client";
 import quiabo from "@/assets/pessoa_cortando_quiabo.png";
 import amendoim from "@/assets/pessoa_descascando_amendoim.png"
-import cuscuz from "@/assets/cuscuz.png";
+import feijao from "@/assets/debulhando_feijao.png";
 import bolinho from "@/assets/bolinho_feijao.png";
 import Modal from "@/components/Modal";
 import ServicesCard from "@/components/ServicesCard";
@@ -21,10 +21,10 @@ export default function Solcution() {
                 <div className="p-4">
                     <h2 className="text-2xl font-bold mb-4">Consultoria (não clínica)</h2>
                     <ul className="mb-4">
-                        <li>Cardápios com referências multiculturais</li>
-                        <li>Melhoria de práticas alimentares identitárias</li>
-                        <li>Promoção da saúde consciente e acessível</li>
-                        <li>Para famílias, instituições e projetos sociais</li>
+                      <li>Cardápios com referências multiculturais.</li>
+                        <li>Melhoria de práticas alimentares identitárias.</li>
+                        <li>Promoção da saúde consciente e acessível para</li>
+                        <li>famílias, instituições e projetos sociais.</li>
                     </ul>
                 </div>
             </Modal>
@@ -39,10 +39,10 @@ export default function Solcution() {
                     <h2 className="text-2xl font-bold mb-4">Consultoria Online(não clínica)</h2>
                     <ul className="mb-4">
                         <li>(Atendimento via chamada de vídeo)</li>
-                        <li>Cardápios com referências multiculturais</li>
-                        <li>Melhoria de práticas alimentares identitárias</li>
-                        <li>Promoção da saúde consciente e acessível</li>
-                        <li>Para famílias, instituições e projetos sociais</li>
+                        <li>Cardápios com referências multiculturais.</li>
+                        <li>Melhoria de práticas alimentares identitárias.</li>
+                        <li>Promoção da saúde consciente e acessível para</li>
+                        <li>famílias, instituições e projetos sociais.</li>
                     </ul>
                 </div>
             </Modal >
@@ -57,9 +57,9 @@ export default function Solcution() {
                     <h2 className="text-2xl font-bold mb-4">Palestras, Oficinas e Cursos</h2>
                     <ul className="mb-4">
                         <li>(Educação alimentar afrocentrada e antirracista)</li>
-                        <li>Alimentação e cultura afro-brasileira</li>
-                        <li>Saúde da população negra e segurança alimentar</li>
-                        <li>Combate ao racismo nutricional</li>
+                        <li>Alimentação e cultura afro-brasileira.</li>
+                        <li>Saúde da população negra e segurança alimentar.</li>
+                        <li>Combate ao racismo nutricional.</li>
                     </ul>
                 </div>
             </Modal>
@@ -73,9 +73,9 @@ export default function Solcution() {
                 <div className="p-4">
                     <h2 className="text-2xl font-bold mb-4">Projetos Colaborativos</h2>
                     <ul className="mb-4">
-                        <li>Ações coletivas em saúde pública</li>
-                        <li>Parcerias para equidade racial</li>
-                        <li>Com ONGs, escolas e movimentos sociais</li>
+                        <li>Ações coletivas em saúde pública.</li>
+                        <li>Parcerias para equidade racial com </li>
+                        <li>ONGs, escolas e movimentos sociais.</li>
                     </ul>
                 </div>
             </Modal>
@@ -83,7 +83,7 @@ export default function Solcution() {
     }
 
     return (
-        <div className="px-4 py-10 md:py-20 md:px-16 text-start bg-[#C4CBF2] min-h-screen" id="services">
+        <div className="scroll-mt-14 px-4 py-10 md:py-20 md:px-16 text-start bg-[#C4CBF2] min-h-screen" id="services">
             <h1 className="text-[#A64522] mb-4 font-extrabold text-4xl md:text-5xl drop-shadow-lg">
                 Serviços
             </h1>
@@ -93,29 +93,29 @@ export default function Solcution() {
                     title="Consultoria (não clínica)"
                     onClick={() => setShowModalConsultoria(true)}
                     src={quiabo}
-                    alt="Pessoa negra cortando quiabo"
+                    alt="Pessoa negra cortando quiabo sentada em um banco de madeira com recipientes apoiados em seu colo"
                     description="Acompanhamento nutricional afetivo e personalizado, com atendimentos presenciais."
                 />
                 <ServicesCard
                     title="Consultoria Online (não clínica)"
                     onClick={() => setShowModalConsultoriaOnline(true)}
-                    src={cuscuz}
-                    alt="Pessoa negra colocando água no fubá para preparo de cuscuz"
+                    src={amendoim}
+                    alt="Pessoa negra descascando amedoim sentada em um banco de madeira com recipientes apoiados em seu colo"
                     description="Acompanhamento nutricional afetivo e personalizado, com atendimentos via chamada de vídeo."
 
                 />
                 <ServicesCard
                     title="Palestras, Oficinas e Cursos"
                     onClick={() => setShowModalPalestras(true)}
-                    src={amendoim}
-                    alt="Pessoa negra descascando amendoim"
+                    src={bolinho}
+                    alt="Pessoa negra fazendo bolinhos de feijão com a mão"
                     description="Educação alimentar afrocentrada e antirracista."
                 />
                 <ServicesCard
                     title="Projetos Colaborativos"
                     onClick={() => setShowModalProjetos(true)}
-                    src={bolinho}
-                    alt="Pessoa negra fazendo bolindo de feijão"
+                    src={feijao}
+                    alt="Pessoa negra debulhando feijão sentada em um banco de madeira com recipientes apoiados em seu colo"
                     description="Promoção da equidade racial através de parcerias com ONGs, escolas e movimentos sociais."
 
                 />

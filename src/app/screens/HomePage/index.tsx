@@ -2,7 +2,7 @@ import feira from "@/assets/feeira_frutas.png";
 
 const HomePage = () => {
     return (
-        <div className="relative h-screen w-full overflow-hidden">
+        <div className="relative h-screen w-full overflow-hidden scroll-mt-14">
             <div
                 className="absolute inset-0 bg-cover bg-center bg-fixed opacity-40"
                 style={{ backgroundImage: `url(${feira.src})` }}
