@@ -19,8 +19,8 @@ const Contact = () => {
                     Vamos conversar?
                 </h1>
                 <hr className="w-full border-[#A64522] mb-6" />
-                <h2 className="text-xl md:text-2xl text-black font-medium drop-shadow-md mb-10">
-                    Será um prazer te atender e pensar coletivamente nas melhores soluções para a sua realidade.
+                <h2 className=" text-lg md:text-xl text-black font-medium drop-shadow-md mb-10">
+                    Será um prazer te atender e construir coletivamente a saúde alimentar.
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8">
@@ -29,7 +29,7 @@ const Contact = () => {
                         <Mail className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">E-mail:</span>{" "}
-                            <a href="mailto:vcruz.alimentafros@gmail.com" className="underline hover:text-[#A64522] transition-colors">
+                            <a href="mailto:vcruz.alimentafros@gmail.com" className=" hover:text-[#A64522] transition-colors">
                                 vcruz.alimentafros@gmail.com
                             </a>
                         </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                         <Phone className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">WhatsApp:</span>{" "}
-                            <a href="https://wa.me/+5511995549911" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#A64522] transition-colors">
+                            <a href="https://wa.me/+5511995549911" target="_blank" rel="noopener noreferrer" className="hover:text-[#A64522] transition-colors">
                                 (11) 99554-9911
                             </a>
                         </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                         <Instagram className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">Instagram:</span>{" "}
-                            <a href="https://www.instagram.com/alimentafros/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#A64522] transition-colors">
+                            <a href="https://www.instagram.com/alimentafros/" target="_blank" rel="noopener noreferrer" className="hover:text-[#A64522] transition-colors">
                                 @alimentafros
                             </a>
                         </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                         <Linkedin className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">LinkedIn:</span>{" "}
-                            <a href="https://www.linkedin.com/in/viviani-cruz/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#A64522] transition-colors">
+                            <a href="https://www.linkedin.com/in/viviani-cruz/" target="_blank" rel="noopener noreferrer" className="hover:text-[#A64522] transition-colors">
                                 Viviani Cruz
                             </a>
                         </div>

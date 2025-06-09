@@ -19,12 +19,12 @@ export default function Solcution() {
                 isOpen={showModalConsultoria}
                 onClose={() => setShowModalConsultoria(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">Consultoria (não clínica)</h2>
+                    <h2 className="text-2xl font-bold mb-4">1- Consultoria em UANs e Cardápios Institucionais</h2>
                     <ul className="mb-4">
-                      <li>Cardápios com referências multiculturais.</li>
-                        <li>Melhoria de práticas alimentares identitárias.</li>
-                        <li>Promoção da saúde consciente e acessível para</li>
-                        <li>famílias, instituições e projetos sociais.</li>
+                        <li>Elaboração, revisão e diversificação de cardápios coletivos.</li>
+                        <li>Treinamentos de equipes de cozinha sobre boas práticas.</li>
+                        <li>Inclusão de alimentos afro brasileiros nas refeições de espaços escolares,</li>
+                        <li> creches, hospitais, projetos sociais, ongs e afins.</li>
                     </ul>
                 </div>
             </Modal>
@@ -36,13 +36,11 @@ export default function Solcution() {
                 isOpen={showModalConsultoriaOnline}
                 onClose={() => setShowModalConsultoriaOnline(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">Consultoria Online(não clínica)</h2>
+                    <h2 className="text-2xl font-bold mb-4">2- Mentorias e Acompanhamento Educativo</h2>
                     <ul className="mb-4">
-                        <li>(Atendimento via chamada de vídeo)</li>
-                        <li>Cardápios com referências multiculturais.</li>
-                        <li>Melhoria de práticas alimentares identitárias.</li>
-                        <li>Promoção da saúde consciente e acessível para</li>
-                        <li>famílias, instituições e projetos sociais.</li>
+                        <li>Ajudo pessoas a entender melhor sua alimentação.</li>
+                        <li>Auxílio na organização de rotina alimentar, compras e planejamento de refeições. </li>
+                        <li>Encontros educativos  e motivacionais, check-ins, dicas e apoio contínuo.</li>
                     </ul>
                 </div>
             </Modal >
@@ -54,12 +52,11 @@ export default function Solcution() {
                 isOpen={showModalPalestras}
                 onClose={() => setShowModalPalestras(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">Palestras, Oficinas e Cursos</h2>
+                    <h2 className="text-2xl font-bold mb-4">3- Produção de Conteúdos e Materiais Educativos</h2>
                     <ul className="mb-4">
-                        <li>(Educação alimentar afrocentrada e antirracista)</li>
-                        <li>Alimentação e cultura afro-brasileira.</li>
-                        <li>Saúde da população negra e segurança alimentar.</li>
-                        <li>Combate ao racismo nutricional.</li>
+                        <li>Cartilhas e posts sobre alimentação e saúde da população negra.</li>
+                        <li>Conteúdos sobre autocuidado, alimentação e cultura alimentar afrocentrada.</li>
+                        <li>Materiais para escolas e educadores sobre educação alimentar antirracista.</li>
                     </ul>
                 </div>
             </Modal>
@@ -71,11 +68,12 @@ export default function Solcution() {
                 isOpen={showModalProjetos}
                 onClose={() => setShowModalProjetos(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">Projetos Colaborativos</h2>
+                    <h2 className="text-2xl font-bold mb-4"> Palestras e Oficinas em Educação Alimentar</h2>
                     <ul className="mb-4">
-                        <li>Ações coletivas em saúde pública.</li>
-                        <li>Parcerias para equidade racial com </li>
-                        <li>ONGs, escolas e movimentos sociais.</li>
+                        <li>Segurança alimentar e nutricional.</li>
+                        <li>Racismo nutricional e alimentação afrocentrada.</li>
+                        <li>Comer com afeto, identidade e cultura.</li>
+                        <li>Prevenção de doenças crônicas por meio da alimentação.</li>
                     </ul>
                 </div>
             </Modal>
@@ -88,35 +86,35 @@ export default function Solcution() {
                 Serviços
             </h1>
             <hr className="border-[#A64522] border-1 mb-6" />
-            <section className="mt-4 md:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
+            <section className="mt-4 md:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 text-center">
                 <ServicesCard
-                    title="Consultoria (não clínica)"
+                    title="1- Consultoria em UANs e Cardápios Institucionais"
                     onClick={() => setShowModalConsultoria(true)}
                     src={quiabo}
                     alt="Pessoa negra cortando quiabo sentada em um banco de madeira com recipientes apoiados em seu colo"
-                    description="Acompanhamento nutricional afetivo e personalizado, com atendimentos presenciais."
+                    description="Destina-se a instituições que oferecem refeições coletivas."
                 />
                 <ServicesCard
-                    title="Consultoria Online (não clínica)"
+                    title="2- Mentorias e Acompanhamento Educativo"
                     onClick={() => setShowModalConsultoriaOnline(true)}
                     src={amendoim}
                     alt="Pessoa negra descascando amedoim sentada em um banco de madeira com recipientes apoiados em seu colo"
-                    description="Acompanhamento nutricional afetivo e personalizado, com atendimentos via chamada de vídeo."
+                    description="Sem prescrição de dietas, encontros online quinzenais."
 
                 />
                 <ServicesCard
-                    title="Palestras, Oficinas e Cursos"
+                    title="3- Produção de Conteúdos e Materiais Educativos"
                     onClick={() => setShowModalPalestras(true)}
                     src={bolinho}
                     alt="Pessoa negra fazendo bolinhos de feijão com a mão"
-                    description="Educação alimentar afrocentrada e antirracista."
+                    description="Para palestras, parcerias e divulgação."
                 />
                 <ServicesCard
-                    title="Projetos Colaborativos"
+                    title="4- Palestras e Oficinas em Educação Alimentar"
                     onClick={() => setShowModalProjetos(true)}
                     src={feijao}
                     alt="Pessoa negra debulhando feijão sentada em um banco de madeira com recipientes apoiados em seu colo"
-                    description="Promoção da equidade racial através de parcerias com ONGs, escolas e movimentos sociais."
+                    description= "Condução de palestras, rodas de conversa e oficinas educativas em escolas, empresas, projetos sociais, coletivos, instituições públicas e privada."
 
                 />
             </section>

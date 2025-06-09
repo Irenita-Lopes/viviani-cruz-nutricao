@@ -28,11 +28,11 @@ const ServicesCard: React.FC<IServicesCard> = ({
                     priority
                 />
             </figure>
-            <div className="px-4 py-2 flex flex-col items-center justify-between flex-grow">
+            <div className="px-4 py-3 flex flex-col items-center justify-between flex-grow">
                 <strong>
                     {title}
                 </strong>
-                <span className="text-center text-gray-700">
+                <span className="text-center py-2 text-gray-700">
                     {description}
                 </span>
                 <DefaultButton

@@ -9,7 +9,7 @@ const Synopsis = () => {
       </h1>
       <hr className="md:mt-6 w-3/4 border-1 border-[#A64522] mb-1" />
 
-      <p className="mt-5 px-5 text-justify text-base md:text-[1.1rem] text-zinc-800 leading-relaxed">
+      <p className="mt-5 px-5 text-justify text-base  md:text-xl text-zinc-800 leading-relaxed">
         Este e-book foi criado com o propósito de reconectar corpos, mentes e histórias à sabedoria ancestral da alimentação afrocentrada.
         A partir de saberes tradicionais, experiências comunitárias e referências culturais, buscamos mostrar como a comida, quando cultivada com afeto, respeito e consciência, é um instrumento de preservação da população negra e de suas identidades.
         Este material é um convite ao autocuidado enraizado na ancestralidade, no equilíbrio e na resistência dos povos africanos e afro-brasileiros. Fomentamos o entendimento de que comer bem é um ato político e de cura coletiva.
