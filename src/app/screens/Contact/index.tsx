@@ -25,7 +25,7 @@ const Contact = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8">
 
-                    <div className="md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
+                    <div className="text-zinc-800 md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
                         <Mail className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">E-mail:</span>{" "}
@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
+                    <div className="text-zinc-800 md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
                         <Phone className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">WhatsApp:</span>{" "}
@@ -55,7 +55,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
+                    <div className="text-zinc-800 md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
                         <Linkedin className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">LinkedIn:</span>{" "}
