@@ -19,8 +19,8 @@ export default function Solcution() {
                 isOpen={showModalConsultoria}
                 onClose={() => setShowModalConsultoria(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">Consultoria em UANs e Cardápios Institucionais</h2>
-                    <ul className="mb-4">
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">Consultoria em UANs e Cardápios Institucionais</h2>
+                    <ul className="mb-4 text-zinc-800">
                         <li>Elaboração, revisão e diversificação de cardápios coletivos.</li>
                         <li>Treinamentos de equipes de cozinha sobre boas práticas.</li>
                         <li>Inclusão de alimentos afro brasileiros nas refeições de espaços escolares,</li>
@@ -114,7 +114,7 @@ export default function Solcution() {
                     onClick={() => setShowModalProjetos(true)}
                     src={feijao}
                     alt="Pessoa negra debulhando feijão sentada em um banco de madeira com recipientes apoiados em seu colo"
-                    description= "Condução de palestras, rodas de conversa e oficinas educativas em escolas, empresas, projetos sociais, coletivos, instituições públicas e privada."
+                    description="Condução de palestras, rodas de conversa e oficinas educativas em escolas, empresas, projetos sociais, coletivos, instituições públicas e privada."
 
                 />
             </section>
