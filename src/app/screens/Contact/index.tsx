@@ -19,7 +19,7 @@ const Contact = () => {
                     Vamos conversar?
                 </h1>
                 <hr className="w-full border-[#A64522] mb-6" />
-                <h2 className=" text-lg md:text-xl text-black font-medium drop-shadow-md mb-10">
+                <h2 className=" text-lg md:text-xl text-zinc-800 font-medium drop-shadow-md mb-10">
                     Será um prazer te atender e construir coletivamente a saúde alimentar.
                 </h2>
 
@@ -45,7 +45,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
+                    <div className="text-zinc-800 md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md bg-[#C4CBF2] hover:shadow-lg transition">
                         <Instagram className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">Instagram:</span>{" "}
@@ -59,7 +59,7 @@ const Contact = () => {
                         <Linkedin className="text-[#A64522]" />
                         <div>
                             <span className="font-semibold">LinkedIn:</span>{" "}
-                            <a href="https://www.linkedin.com/in/viviani-cruz/" target="_blank" rel="noopener noreferrer" className="hover:text-[#A64522] transition-colors">
+                            <a href="https://www.linkedin.com/in/viviani-cruz/" target="_blank" rel="noopener noreferrer" className="text-hover:text-[#A64522] transition-colors">
                                 Viviani Cruz
                             </a>
                         </div>

@@ -12,7 +12,7 @@ const HomePage = () => {
                 <h1 className="text-6xl md:text-8xl font-bold text-[#A64522] drop-shadow-lg">
                     AlimentAfros
                 </h1>
-                <h2 className="mt-4 text-xl md:text-4xl text-black drop-shadow-md">
+                <h2 className="mt-4 text-xl md:text-4xl text-zinc-800 drop-shadow-md">
                     Alimentação como ato de cura e resistência
                 </h2>
             </div>

@@ -36,8 +36,8 @@ export default function Solcution() {
                 isOpen={showModalConsultoriaOnline}
                 onClose={() => setShowModalConsultoriaOnline(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">2- Mentorias e Acompanhamento Educativo</h2>
-                    <ul className="mb-4">
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">2- Mentorias e Acompanhamento Educativo</h2>
+                    <ul className="mb-4 text-zinc-800">
                         <li>Ajudo pessoas a entender melhor sua alimentação.</li>
                         <li>Auxílio na organização de rotina alimentar, compras e planejamento de refeições. </li>
                         <li>Encontros educativos  e motivacionais, check-ins, dicas e apoio contínuo.</li>
@@ -52,8 +52,8 @@ export default function Solcution() {
                 isOpen={showModalPalestras}
                 onClose={() => setShowModalPalestras(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">3- Produção de Conteúdos e Materiais Educativos</h2>
-                    <ul className="mb-4">
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">3- Produção de Conteúdos e Materiais Educativos</h2>
+                    <ul className="text-zinc-800 mb-4">
                         <li>Cartilhas e posts sobre alimentação e saúde da população negra.</li>
                         <li>Conteúdos sobre autocuidado, alimentação e cultura alimentar afrocentrada.</li>
                         <li>Materiais para escolas e educadores sobre educação alimentar antirracista.</li>
@@ -68,8 +68,8 @@ export default function Solcution() {
                 isOpen={showModalProjetos}
                 onClose={() => setShowModalProjetos(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4"> Palestras e Oficinas em Educação Alimentar</h2>
-                    <ul className="mb-4">
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4"> Palestras e Oficinas em Educação Alimentar</h2>
+                    <ul className="text-zinc-800 mb-4">
                         <li>Segurança alimentar e nutricional.</li>
                         <li>Racismo nutricional e alimentação afrocentrada.</li>
                         <li>Comer com afeto, identidade e cultura.</li>
@@ -86,7 +86,7 @@ export default function Solcution() {
                 Serviços
             </h1>
             <hr className="border-[#A64522] border-1 mb-6" />
-            <section className="mt-4 md:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 text-center">
+            <section className="text-zinc-800 mt-4 md:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 text-center">
                 <ServicesCard
                     title="1- Consultoria em UANs e Cardápios Institucionais"
                     onClick={() => setShowModalConsultoria(true)}
