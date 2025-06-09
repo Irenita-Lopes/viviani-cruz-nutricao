@@ -16,7 +16,7 @@ const Synopsis = () => {
       </p>
 
       <a
-        href="https://wa.me/+5511995549911"
+        href="https://pay.hotmart.com/R100135535P"
         target="_blank"
         rel="noopener noreferrer"
         className="my-6 bg-[#A64522] hover:bg-[#F24C27] text-white font-bold py-2 px-4 rounded-xl"

@@ -19,7 +19,7 @@ export default function Solcution() {
                 isOpen={showModalConsultoria}
                 onClose={() => setShowModalConsultoria(false)}>
                 <div className="p-4">
-                    <h2 className="text-2xl font-bold mb-4">1- Consultoria em UANs e Cardápios Institucionais</h2>
+                    <h2 className="text-2xl font-bold mb-4">Consultoria em UANs e Cardápios Institucionais</h2>
                     <ul className="mb-4">
                         <li>Elaboração, revisão e diversificação de cardápios coletivos.</li>
                         <li>Treinamentos de equipes de cozinha sobre boas práticas.</li>
@@ -36,7 +36,7 @@ export default function Solcution() {
                 isOpen={showModalConsultoriaOnline}
                 onClose={() => setShowModalConsultoriaOnline(false)}>
                 <div className="p-4">
-                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">2- Mentorias e Acompanhamento Educativo</h2>
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">Mentorias e Acompanhamento Educativo</h2>
                     <ul className="mb-4 text-zinc-800">
                         <li>Ajudo pessoas a entender melhor sua alimentação.</li>
                         <li>Auxílio na organização de rotina alimentar, compras e planejamento de refeições. </li>
@@ -52,7 +52,7 @@ export default function Solcution() {
                 isOpen={showModalPalestras}
                 onClose={() => setShowModalPalestras(false)}>
                 <div className="p-4">
-                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">3- Produção de Conteúdos e Materiais Educativos</h2>
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">Produção de Conteúdos e Materiais Educativos</h2>
                     <ul className="text-zinc-800 mb-4">
                         <li>Cartilhas e posts sobre alimentação e saúde da população negra.</li>
                         <li>Conteúdos sobre autocuidado, alimentação e cultura alimentar afrocentrada.</li>
@@ -68,7 +68,7 @@ export default function Solcution() {
                 isOpen={showModalProjetos}
                 onClose={() => setShowModalProjetos(false)}>
                 <div className="p-4">
-                    <h2 className="text-zinc-800 text-2xl font-bold mb-4"> Palestras e Oficinas em Educação Alimentar</h2>
+                    <h2 className="text-zinc-800 text-2xl font-bold mb-4">Palestras e Oficinas em Educação Alimentar</h2>
                     <ul className="text-zinc-800 mb-4">
                         <li>Segurança alimentar e nutricional.</li>
                         <li>Racismo nutricional e alimentação afrocentrada.</li>
@@ -88,14 +88,14 @@ export default function Solcution() {
             <hr className="border-[#A64522] border-1 mb-6" />
             <section className="text-zinc-800 mt-4 md:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4 text-center">
                 <ServicesCard
-                    title="1- Consultoria em UANs e Cardápios Institucionais"
+                    title="Consultoria em UANs e Cardápios Institucionais"
                     onClick={() => setShowModalConsultoria(true)}
                     src={quiabo}
                     alt="Pessoa negra cortando quiabo sentada em um banco de madeira com recipientes apoiados em seu colo"
                     description="Destina-se a instituições que oferecem refeições coletivas."
                 />
                 <ServicesCard
-                    title="2- Mentorias e Acompanhamento Educativo"
+                    title="Mentorias e Acompanhamento Educativo"
                     onClick={() => setShowModalConsultoriaOnline(true)}
                     src={amendoim}
                     alt="Pessoa negra descascando amedoim sentada em um banco de madeira com recipientes apoiados em seu colo"
@@ -103,14 +103,14 @@ export default function Solcution() {
 
                 />
                 <ServicesCard
-                    title="3- Produção de Conteúdos e Materiais Educativos"
+                    title="Produção de Conteúdos e Materiais Educativos"
                     onClick={() => setShowModalPalestras(true)}
                     src={bolinho}
                     alt="Pessoa negra fazendo bolinhos de feijão com a mão"
                     description="Para palestras, parcerias e divulgação."
                 />
                 <ServicesCard
-                    title="4- Palestras e Oficinas em Educação Alimentar"
+                    title="Palestras e Oficinas em Educação Alimentar"
                     onClick={() => setShowModalProjetos(true)}
                     src={feijao}
                     alt="Pessoa negra debulhando feijão sentada em um banco de madeira com recipientes apoiados em seu colo"
