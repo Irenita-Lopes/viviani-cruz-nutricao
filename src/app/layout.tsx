@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Viniani Cruz AlimentAfros",
-  description: "Portfolio e serviços de Viviani Aparecida Cruz, nutróloga e pesquisadora em saúde alimentar da população negra",
+  title: "Viviani Cruz - AlimentAfros",
+  description: "Portfolio e serviços de Viviani Aparecida Cruz, técnica em Nutrição e Dietética / Nutricionista em formação",
 };
 
 export default function RootLayout({
